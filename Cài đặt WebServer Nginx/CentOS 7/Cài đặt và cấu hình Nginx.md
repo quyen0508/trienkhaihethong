@@ -43,6 +43,13 @@ firewall-cmd --reload
 
 ## Cấu hình Nginx
 
+- Cấp quyền sở hữu cho user ```nginx``` và quyền chỉnh sửa đối với thư mục hoạt động của trang web:
+
+```sh
+chown nginx:nginx <đường-dẫn-thư-mục-hoạt-động-của-trang-web>
+chmod -R 755 <đường-dẫn-thư-mục-hoạt-động-của-trang-web>
+```
+
 - Để tiện hơn trong việc quản lý các file cấu hình host trang web, có thể tạo 2 thư mục ```sites-available``` và ```sites-enabled``` để quản lý. Trong đó, ```sites-available``` dùng để lưu tất cả các cấu hình, còn ```sites-enabled``` dùng để kích hoạt các file cấu hình mong muốn.
 - Tạo thư mục ```sites-avalable``` và ```sites-enabled```:
 
