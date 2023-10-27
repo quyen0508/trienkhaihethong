@@ -1,5 +1,7 @@
 # Cài đặt và cấu hình Nginx trên CentOS 7
 
+*Tất cả các lệnh đều được thực hiện trên tài khoản root. Nếu sử dụng tài khoản thường để thực thi lệnh mà gặp lỗi ```Permission denied```, hãy thêm ```sudo``` vào đầu mỗi lệnh.*
+
 ## Cài đặt Nginx
 
 - Trước tiên cần cập nhật CentOS 7:
