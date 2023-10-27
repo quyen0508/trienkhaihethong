@@ -41,7 +41,7 @@ firewall-cmd --reload
 
 ## Cấu hình Nginx
 
-- Để tiện hơn trong việc quản lý các file cấu hình host trang web, có thể tạo 2 thư mục ```sites-available``` và ```sites-enabled``` để quản lý. Trong đó, ```sites-available``` dùng để lưu tất cả các cấu hình, còn ```sites-enabled``` dùng để kích hoạt các file cấu hình mong muốn
+- Để tiện hơn trong việc quản lý các file cấu hình host trang web, có thể tạo 2 thư mục ```sites-available``` và ```sites-enabled``` để quản lý. Trong đó, ```sites-available``` dùng để lưu tất cả các cấu hình, còn ```sites-enabled``` dùng để kích hoạt các file cấu hình mong muốn.
 - Tạo thư mục ```sites-avalable``` và ```sites-enabled```:
 
 ```sh
@@ -49,7 +49,7 @@ mkdir /etc/nginx/sites-available
 mkdir /etc/nginx/sites-enabled
 ```
 
-- Cấu hình file ```nginx.conf``` tại đường dẫn ```/etc/nginx/``` để nhận cấu hình của các trang trong ```sites-enabled``` bằng cách thêm ```include /etc/nginx/sites-enabled/*.conf;``` vào cuối file
+- Cấu hình file ```nginx.conf``` tại đường dẫn ```/etc/nginx/``` để nhận cấu hình của các trang trong ```sites-enabled``` bằng cách thêm ```include /etc/nginx/sites-enabled/*.conf;``` vào cuối file:
 
 ![image](./image/NginxCentos7_1.png)
 
