@@ -1,4 +1,4 @@
-# Triển khai trang web dùng ASP.NET Core bằng Nginx với reverse proxy trên CentOS 7
+# Triển khai trang web dùng ASP.NET Core bằng Reversed Proxy Nginx trên CentOS 7
 
 *Tất cả các lệnh đều được thực hiện trên tài khoản root. Nếu sử dụng tài khoản thường để thực thi lệnh mà gặp lỗi ```Permission denied```, hãy thêm ```sudo``` vào đầu mỗi lệnh.*
 
@@ -21,7 +21,7 @@ Trong đó, * là phiên bản .NET tương ứng.
 
 ## Cài đặt Nginx
 
-Tham khảo tại [đây](https://github.com/quyen0508/trienkhaihethong/blob/main/C%C3%A0i%20%C4%91%E1%BA%B7t%20WebServer%20Nginx/CentOS%207/C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20Nginx.md)
+Tham khảo tại [đây](https://github.com/quyen0508/trienkhaihethong/blob/main/Linux/CentOS%207/C%C3%A0i%20%C4%91%E1%BA%B7t%20Web%20Server%20Nginx/C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20Nginx.md)
 
 ## Cấu hình Nginx
 
