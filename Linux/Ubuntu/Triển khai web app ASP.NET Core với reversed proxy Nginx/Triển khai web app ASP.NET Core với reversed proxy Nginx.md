@@ -1,4 +1,4 @@
-# Triển khai web app ASP.NET Core với reversed proxy Nginx
+# Triển khai web app ASP.NET Core với Reversed Proxy Nginx
 
 ### Cài đặt ASP.NET Core Runtime
 
